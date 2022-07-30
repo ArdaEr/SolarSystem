@@ -5,7 +5,7 @@ using UnityEngine;
 public class RotateAroundSample : MonoBehaviour
 {
     
-    [SerializeField] Transform _targetObject;
+    public Transform _targetObject;
     [SerializeField] float _selfRotateSpeed;
     [SerializeField] float _rotationAroundSpeed;
     Vector3 _rotateVector;
